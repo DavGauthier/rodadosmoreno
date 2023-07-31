@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .flex-container ul{
+        display: flex;
+        background-color: black;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 2px;
+        list-style-type: none;
+           
+    }
+    
+    .flex-container li{
+    
+        background-color: black;
+        margin: 1rem 4rem;
+        align-items: center;
+        }
+    
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+
+    .logo {
+        width: 80px;
+        padding-left: 25px;
+        margin-right: 0;}
+
+        
+.ubicacion2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(202, 198, 198);
+    
+
+
+}
+
+.pie_pagina{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.pie_pagina div
+{
+font-size: 16px;
+}
+
+.pie_pagina div:hover{
+    transform: scale(1.3);
+}
+
+/* Se usa al item que lo contiene*/
+
+.flex-container .logo:hover{
+    transform: scale(1.4);
+}
+
+.pie_pagina div {
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+gap: 0.3rem;
+}
+
+.menuham{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+   background-color: white;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    filter:invert(1);
+    display: none;
+
+
+}
+
+.ubicacion5 {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hola {
+    margin-top: 2rem;
+}
+
+/* ofertas */
+
+.fondo {
+
+    background-color: rgb(177, 174, 174);
+}
+
+.ofertas {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.ofertasbici {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 814px) {
+    .imagenPrincipal {
+            height: 100vh;
+    padding-right: 20px;
+        }
+        .flex-container{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+        }
+        .pie_pagina{
+            gap: 1rem;
+        }
+        .menuham{
+            display: none;}
+            .pie_pagina {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                
+            }
+        }
+@media screen and (max-width: 380px) {
+            .flex-container ul {
+                display: grid;
+                align-items:start;
+                justify-content: flex-start;
+            }
+            .logo {
+                justify-content: flex-start;
+                margin-left: 1rem;
+            }
+            .menuham{
+                display:inline;}
+
+            .pie_pagina {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                
+            }
+        }

@@ -6,24 +6,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-.flex-container{
+.flex-container ul{
     display: flex;
     background-color: black;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding: 2px;
        
 }
-
-.flex-container div{
+.flex-container li{
 
     background-color: black;
     margin: 1rem 4rem;
     align-items: center;
     }
 
-    div a{
+    li a{
         text-decoration: none;
         color: white;
     }
@@ -46,6 +45,18 @@
     text-decoration: none;   
     }
 
+    .viñetas {
+        font-size: 16px;
+    }
+
+    .text1 {
+        font-weight: 550;
+    }
+
+    .text2 {
+        font-weight: 600;
+    }
+
 .imagenPrincipal {
     background-image: url(../Imagenes/Bicicletaok.jpg);
     height: 100vh;
@@ -58,6 +69,7 @@
     flex-direction: column;
     padding-right: 600px;
     font-style: normal;
+    text-align: left;
 }
 
 .pie_pagina{
@@ -133,7 +145,7 @@ gap: 0.3rem;
 }
 
 @media screen and (max-width: 380px) {
-    .flex-container {
+    .flex-container ul {
         display: grid;
         align-items:start;
         justify-content: flex-start;
