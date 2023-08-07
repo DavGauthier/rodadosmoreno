@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family:sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+    } 
 
 .flex-container ul{
     display: flex;
@@ -14,10 +14,43 @@
     justify-content: space-between;
     padding: 2px;
     font-size: 16px;
+    list-style-type: none;
     }
+    .ubicacion5 {
+        display: flex;
+        align-items: center;
+               flex-direction: column;
+               gap: 40px;
+               margin-top: 10rem;
 
+            }
+    .mapa {
+        align-items: end;
+        justify-content: end;
+        
+        margin-top: 6rem;
+    }
+    
+    .contenedorarriba {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+          }
+
+          .juntos {
+            margin-left: 2rem;
+            margin-right: 1rem;
+          }
+h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: 500;
+}  
 .flex-container li:hover {
-    transform: scale(1.3);
+    transform: scale(1.3);    
 }
 .flex-container li{
 
@@ -30,7 +63,12 @@
         text-decoration: none;
         color: white;
     }
-
+    .pie_pagina {
+        
+        position: absolute;
+        width: 100%;
+    }
+ 
 .menu{
     display: flex;
     list-style-type: none;
@@ -77,6 +115,11 @@
     text-align: left;
 }
 
+.fotoquienes{
+width: 900px;
+justify-content: flex-end;
+
+}
 
 .pie_pagina{
 
@@ -126,15 +169,15 @@ gap: 0.3rem;
     display: none;
 }
 
-.ubicacion5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    }
+.ubicacion2 {
+display: flex;
+justify-content: space-around;
+height: 100vh;
+
+}
 
 
-
-@media screen and (max-width: 951px) {
+@media screen and (max-width: 1021px) {
     .imagenPrincipal {
             height: 100vh;
     padding-right: 20px;
@@ -145,10 +188,9 @@ gap: 0.3rem;
     flex-direction: row;
     align-items: center;
         justify-content: space-around;
-    padding: 2px;
+    padding: 0px;
+    width: 100%;
         }
-
-        flex-container ul 
         .pie_pagina{
             gap: 1rem;
         }
@@ -157,7 +199,7 @@ gap: 0.3rem;
        
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .flex-container ul {
         display: grid;
         align-items:start;
@@ -169,4 +211,13 @@ gap: 0.3rem;
     }
     .menuham{
         display:inline;}
+
+    .ubicacion2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ .mapa {
+    margin-bottom: 2rem;
+ }    
 }
