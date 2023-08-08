@@ -89,7 +89,6 @@ gap: 0.3rem;
 .menuham{
     height: 30px;
     width: 30px;
-    position: absolute;
    background-color: white;
     top: 1rem;
     right: 1rem;
@@ -140,7 +139,6 @@ align-items: center;
 } 
 .pie_pagina {
     bottom: 0;
-    position: relative;
     width: 100%;
 }
 
@@ -170,8 +168,7 @@ div fotofuter {
         .menuham{
             display: none;}
             .pie_pagina {
-                position: absolute;
-                bottom: 0;
+                                bottom: 0;
                 width: 100%;
                 
             }
@@ -190,7 +187,7 @@ div fotofuter {
                 display:inline;}
 
             .pie_pagina {
-                position: absolute;
+                
                 bottom: 0;
                 width: 100%;
                 

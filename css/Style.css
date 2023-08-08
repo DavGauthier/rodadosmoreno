@@ -68,7 +68,7 @@ h1 {
     }
     .pie_pagina {
         
-        position: absolute;
+        
         width: 100%;
     }
  
@@ -163,7 +163,7 @@ gap: 0.3rem;
 .menuham{
     height: 30px;
     width: 30px;
-    position: absolute;
+    
    background-color: white;
     top: 1rem;
     right: 1rem;
