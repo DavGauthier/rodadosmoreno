@@ -21,6 +21,7 @@
            
     }
     
+    
     .flex-container li{
     
         background-color: black;
@@ -60,6 +61,7 @@
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
+    
 }
 
 .pie_pagina div
@@ -133,12 +135,22 @@ gap: 0.3rem;
 
 .formulario {
 padding: 4rem;
+display: flex;
+align-items: center;
 } 
 .pie_pagina {
     bottom: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
+
+div fotofuter {
+
+    width: 500px;
+    height: 400px;
+}
+
+
 @media screen and (max-width: 1021px) {
     .imagenPrincipal {
             height: 100vh;
