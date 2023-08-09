@@ -132,6 +132,7 @@ gap: 0.3rem;
     padding: 1rem;
 }
 
+
 .formulario {
 padding: 4rem;
 display: flex;
@@ -168,11 +169,11 @@ div fotofuter {
         .menuham{
             display: none;}
             .pie_pagina {
-                                bottom: 0;
+                bottom: 0;
                 width: 100%;
-                
-            }
+                            }
         }
+        
 @media screen and (max-width: 750px) {
             .flex-container ul {
                 display: grid;

@@ -198,7 +198,7 @@ height: 100vh;
             gap: 1rem;
         }
         .menuham{
-            display: none;}
+            display: none; }
        
 }
 
@@ -213,7 +213,7 @@ height: 100vh;
         margin-left: 1rem;
     }
     .menuham{
-        display:inline;}
+        display:none;}
 
     .ubicacion2 {
         display: flex;
