@@ -35,22 +35,20 @@
             color: white;
         }
 
-    .logo {
+    /*.logo {
         width: 80px;
         padding-left: 25px;
-        margin-right: 0;}
+        margin-right: 0;} */
 
         
-.ubicacion2 {
+/* .ubicacion2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     height: 100vh;
     background-color: rgb(202, 198, 198);
-    
-
-
-}
+ 
+} 
 
 .pie_pagina{
 
@@ -75,7 +73,7 @@ font-size: 16px;
 
 /* Se usa al item que lo contiene*/
 
-.flex-container .logo:hover{
+/*.flex-container .logo:hover{
     transform: scale(1.4);
 }
 
@@ -104,18 +102,13 @@ gap: 0.3rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+}*/
 
-.hola {
-    margin-top: 2rem;
-}
+
 
 /* ofertas */
 
-.fondo {
 
-    background-color: rgb(177, 174, 174);
-}
 
 .ofertas {
     display: flex;    
@@ -124,13 +117,8 @@ gap: 0.3rem;
     font-weight: 700;
 }
 
-.ofertasbici {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    padding: 1rem;
-}
+
+
 
 
 .formulario {
@@ -138,16 +126,8 @@ padding: 4rem;
 display: flex;
 align-items: center;
 } 
-.pie_pagina {
-    bottom: 0;
-    width: 100%;
-}
 
-div fotofuter {
 
-    width: 500px;
-    height: 400px;
-}
 
 
 @media screen and (max-width: 1021px) {
@@ -168,10 +148,7 @@ div fotofuter {
         }
         .menuham{
             display: none;}
-            .pie_pagina {
-                bottom: 0;
-                width: 100%;
-                            }
+            
         }
         
 @media screen and (max-width: 750px) {
@@ -187,10 +164,7 @@ div fotofuter {
             .menuham{
                 display:inline;}
 
-            .pie_pagina {
-                
-                bottom: 0;
-                width: 100%;
+            
                 
             }
         }

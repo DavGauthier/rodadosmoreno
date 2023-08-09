@@ -1,0 +1,224 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container ul {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2px;
+  font-size: 16px;
+  list-style-type: none;
+}
+.flex-container .logo {
+  width: 80px;
+  padding-left: 25px;
+  margin-right: 0;
+}
+.flex-container .text2 {
+  font-weight: 600;
+}
+.flex-container .menuham {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  filter: invert(1);
+  display: none;
+}
+.flex-container li:hover {
+  transform: scale(1.3);
+}
+.flex-container li {
+  background-color: black;
+  margin: 1rem 4rem;
+  align-items: center;
+}
+.flex-container li a {
+  text-decoration: none;
+  color: white;
+}
+.flex-container .logo:hover {
+  transform: scale(1.4);
+}
+
+main .imagenPrincipal {
+  background-image: url(../Imagenes/Bicicletaok.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 600px;
+  font-style: normal;
+  text-align: left;
+  flex-wrap: wrap;
+}
+main .text1 {
+  font-weight: 550;
+}
+main .viñetas {
+  font-size: 16px;
+  margin-top: 1rem;
+}
+main h1 {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: 500;
+}
+
+.pie_pagina {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5rem;
+}
+.pie_pagina div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 16px;
+}
+.pie_pagina div:hover {
+  transform: scale(1.3);
+}
+
+.ubicacion2 {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+.ubicacion2 .ubicacion5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 10rem;
+}
+.ubicacion2 .mapa {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: 6rem;
+}
+.ubicacion2 .hola {
+  margin-top: 2rem;
+}
+
+.fondo {
+  background-color: rgb(177, 174, 174);
+}
+
+.ofertasbici {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+.contenedorarriba {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  width: auto;
+  background-image: linear-gradient(red grey);
+}
+.contenedorarriba .juntos {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.contenedorarriba .fotoquienes {
+  width: 900px;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 140px;
+  align-items: center;
+  height: 100%;
+}
+.menu_item a {
+  color: white;
+  text-decoration: none;
+}
+
+div fotofuter {
+  width: 100%;
+  height: 100%;
+}
+
+.ahoraimagen {
+  width: 100%;
+  height: 900px;
+}
+
+.formulario5 {
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1021px) {
+  .imagenPrincipal {
+    height: 100vh;
+    padding-right: 20px;
+  }
+  .flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    width: 100%;
+  }
+  .pie_pagina {
+    gap: 1rem;
+  }
+  .menuham {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .flex-container ul {
+    display: grid;
+    align-items: start;
+    justify-content: flex-start;
+  }
+  .logo {
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+  .menuham {
+    display: inline;
+  }
+  .ubicacion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapa {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
