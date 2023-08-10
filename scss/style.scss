@@ -1,3 +1,6 @@
+
+$fuenteprincipal: Segoe UI;
+
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +15,13 @@
         & ul{
             display: flex;
             background-color: black;
-            opacity: 0.9;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-between;
             padding: 2px;
             font-size: 16px;
             list-style-type: none;
-            opacity: 0.9;
+           
             }
             .logo {
                 width: 80px;
@@ -146,7 +148,8 @@
             
             
     .contenedorarriba {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
@@ -156,9 +159,17 @@
         .juntos {
             margin-left: 2rem;
             margin-right: 1rem;}
+
+            .contenedorfoto2{
+                width: 75vw;
+                max-width: 1000px;
+                min-width: 400px;
+                margin: auto;
+            }
+
         .fotoquienes{
-                width: 900px;
-                justify-content: flex-end;
+                width: 100%;
+                               
                  }
                  }
 
@@ -174,16 +185,19 @@
         }
 }
 
-div fotofuter {
+fotofuter {
 
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    max-width: 1000px;
+    min-width: 360px;
+    margin: auto;
     
 }
 .ahoraimagen{
 
     width: 100%;
-    height: 900px;
+    border-radius: 8px;
+    padding-bottom: 1rem;
 }
 
 .formulario5 {
