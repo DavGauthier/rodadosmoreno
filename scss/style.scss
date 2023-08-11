@@ -1,309 +1,35 @@
+@import "../scss/Partials/ahoraimagen";
+@import "../scss/Partials/boton99";
+@import "../scss/Partials/contenedorarriba";
+@import "../scss/Partials/flexconteiner";
+@import "../scss/Partials/formulario5";
+@import "../scss/Partials/fotofuter";
+@import "../scss/Partials/main";
+@import "../scss/Partials/menu";
+@import "../scss/Partials/pie_pagina";
+@import "../scss/Partials/reset";
+@import "../scss/Partials/ubicacion2";
+@import "../scss/Partials/mediaq";
+@import "../scss/Partials/mediaq750";
 
-$fuenteprincipal: Segoe UI;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:sans-serif;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    } 
-
-
-    .flex-container {
-        
-        & ul{
-            display: flex;
-            background-color: black;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            padding: 2px;
-            font-size: 16px;
-            list-style-type: none;
-           
-            }
-            .logo {
-                width: 80px;
-                padding-left: 25px;
-                margin-right: 0;
-            }
-            .text2 {
-                font-weight: 600;
-            }
-            .menuham{
-                height: 30px;
-                width: 30px;
-                
-               background-color: white;
-                top: 1rem;
-                right: 1rem;
-                cursor: pointer;
-                filter:invert(1);
-                display: none;
-            }
-            & li:hover {
-                transform: scale(1.3);    
-            }
-            & li{
-            
-                background-color: black;
-                margin: 1rem 4rem;
-                align-items: center;
-                }
-            
-                li a{
-                    text-decoration: none;
-                    color: white;
-                }
-                & .logo:hover{
-                    transform: scale(1.4);
-                }
-    }
-  main {
-    .imagenPrincipal {
-        background-image: url(../Imagenes/Bicicletaok.jpg);
-        height: 100vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 0.5rem;
-        font-style: normal;
-        text-align: left;
-        flex-wrap: wrap;
-    }
-    .text1 {
-        font-weight: 550;
-    }
-
-    .viñetas {
-        font-size: 16px;
-        margin-top: 1rem;
-    }
-    h1 {
-        font-size: 50px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-        font-weight: 500;
-    } 
-  }
-  .pie_pagina{
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 5rem;
-    opacity: 0.9;
-
-    & div {
-        display: flex;
-        justify-content: space-around;
-    align-items: center;
-    gap: 0.3rem;
-    font-size: 16px;
-    }
-
-    & div:hover{
-    transform: scale(1.3);
-  }
-}
-  
-  .ubicacion2 {
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
-    .ubicacion5 {
-        display: flex;
-        align-items: center;
-               flex-direction: column;
-               gap: 40px;
-               margin-top: 10rem;}
-               .mapa {
-                display: flex;
-                align-items: end;
-                justify-content: end;
-                margin-top: 6rem;
-            }
-            .hola {
-                margin-top: 2rem;
-            }
-            }
-            
-
-            .ofertasbici {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 16px;
-                padding: 1rem;}
-            
-            
-    .contenedorarriba {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        height: 100%;
-        width: auto;
-        background-image: linear-gradient(red grey);
-        .juntos {
-            margin-left: 2rem;
-            margin-right: 1rem;}
-
-            .contenedorfoto2{
-                width: 75vw;
-                max-width: 1000px;
-                min-width: 400px;
-                margin: auto;
-            }
-
-        .fotoquienes{
-                width: 100%;
-                               
-                 }
-                 }
-
-.menu{
-    display: flex;
-    list-style-type: none;
-    gap: 140px;
-    align-items: center;
-    height: 100%; 
-     &_item a {
-        color: white;
-        text-decoration: none;   
-        }
-}
-
-fotofuter {
-
-    width: 75%;
-    max-width: 1000px;
-    min-width: 360px;
-    margin: auto;
     
-}
-.ahoraimagen{
+  
 
-    width: 100%;
-    border-radius: 8px;
-    padding-bottom: 1rem;
-    transition: 0.5s;
-   
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-.formulario5 {
-    padding: 2rem;
-}
-
-.boton99 {
-
-    padding: 16px 25px;
- border: unset;
- border-radius: 15px;
- color: #212121;
- z-index: 1;
- background: #e8e8e8;
- position: relative;
- font-weight: 1000;
- font-size: 17px;
- -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- transition: all 250ms;
- overflow: hidden;
-
-&::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-   }
-   
-   &:hover {
-    color: #e8e8e8;
-   }
-   
-   &:hover::before {
-    width: 100%;
-   }
-}
-
-@media screen and (max-width: 1021px) {
-    .imagenPrincipal {
-            height: 100vh;
-    padding-right: 20px;
-        }
-        .flex-container{
-    display: flex;
-    background-color: black;
-    flex-direction: row;
-    align-items: center;
-        justify-content: space-around;
-    padding: 0px;
-    width: 100%;
-        }
-        .pie_pagina{
-            gap: 1rem;
-        }
-        .menuham{
-            display: none; }
-       
-}
+  
+ 
+            
+            
+    
 
 
-@media screen and (max-width: 750px) {
-    .flex-container ul {
-        display: grid;
-        align-items:start;
-        justify-content: flex-start;
-    }
-    .logo {
-        justify-content: flex-start;
-        margin-left: 1rem;
-    }
-    .menuham{
-        display:inline;}
 
-    .ubicacion2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
- .mapa {
-    margin-bottom: 1rem;
-    width: 100%;
-    padding: 4rem;
- }    
 
- .contenedorarriba {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
 
- .imagenPrincipal {
 
-    padding: 2rem;
-    flex-wrap: wrap;
- }
-}
+
+
+
+
+
 

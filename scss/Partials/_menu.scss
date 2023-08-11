@@ -1,0 +1,11 @@
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 140px;
+    align-items: center;
+    height: 100%; 
+     &_item a {
+        color: white;
+        text-decoration: none;   
+        }
+}

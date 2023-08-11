@@ -1,0 +1,32 @@
+.contenedorarriba {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(red grey);
+    .juntos {
+        margin-left: 2rem;
+        margin-right: 1rem;}
+
+        .contenedorfoto2{
+            width: 75vw;
+            max-width: 1000px;
+            min-width: 400px;
+            margin: auto;
+        }
+        .tit {
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .tit2 {
+            font-weight: 550;
+        }
+
+    .fotoquienes{
+            width: 100%;
+                           
+             }
+             }

@@ -1,0 +1,32 @@
+main {
+    .imagenPrincipal {
+        background-image: url(../Imagenes/Bicicletaok.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem;
+        font-style: normal;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+    .text1 {
+        font-weight: 550;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .viñetas {
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    h1 {
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-weight: bold;
+    } 
+  }

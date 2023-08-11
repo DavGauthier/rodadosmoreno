@@ -1,0 +1,36 @@
+@media screen and (max-width: 750px) {
+    .flex-container ul {
+        display: grid;
+        align-items:start;
+        justify-content: flex-start;
+    }
+    .logo {
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+    .menuham{
+        display:inline;}
+
+    .ubicacion2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ .mapa {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 4rem;
+ }    
+
+ .contenedorarriba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .imagenPrincipal {
+
+    padding: 2rem;
+    flex-wrap: wrap;
+ }
+}

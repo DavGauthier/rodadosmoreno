@@ -1,0 +1,21 @@
+@media screen and (max-width: 1021px) {
+    .imagenPrincipal {
+            height: 100vh;
+    padding-right: 20px;
+        }
+        .flex-container{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+        justify-content: space-around;
+    padding: 0px;
+    width: 100%;
+        }
+        .pie_pagina{
+            gap: 1rem;
+        }
+        .menuham{
+            display: none; }
+       
+}
