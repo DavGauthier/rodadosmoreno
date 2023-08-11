@@ -22,6 +22,7 @@
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   transition: all 250ms;
   overflow: hidden;
+  box-shadow: 10px 8px;
 }
 .boton99::before {
   content: "";
@@ -131,7 +132,7 @@ fotofuter {
 
 main .imagenPrincipal {
   background-image: url(../Imagenes/Bicicletaok.jpg);
-  height: 100vh;
+  height: 100vw;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
