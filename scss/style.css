@@ -280,16 +280,16 @@ main h1 {
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(20, 20, 20, 0.5);
   }
-  .nav .nav.visible {
-    opacity: 1;
-    visibility: visible;
-  }
   .nav .nav-list {
     flex-direction: column;
     align-items: end;
   }
   .nav .nav-list li a {
     color: rgba(236, 236, 236, 0.9254901961);
+  }
+  .visible {
+    opacity: 1;
+    visibility: visible;
   }
   .ubicacion2 {
     display: flex;

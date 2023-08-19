@@ -34,10 +34,7 @@
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(20, 20, 20, 0.5);
     
-    .nav.visible {
-        opacity: 1;
-        visibility: visible;
-    }
+
     
     .nav-list {
         flex-direction: column;
@@ -47,6 +44,12 @@
     .nav-list li a {
         color: #ecececec;
     }
+}
+
+.visible {
+        opacity: 1;
+        visibility: visible;
+    
 }
 
     .ubicacion2 {
