@@ -1,15 +1,53 @@
 @media screen and (max-width: 750px) {
-    .flex-container ul {
-        display: grid;
-        align-items:start;
-        justify-content: flex-start;
+    .abrir-menu,
+    .cerrar-menu {
+       display: block;
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    cursor: pointer
     }
-    .logo {
-        justify-content: flex-start;
-        margin-left: 1rem;
+
+    .abrir-menu {
+        color: #fdfdfd;
+        background-color: rgb(0, 0, 0);
+        margin-right: 1rem;
     }
-    .menuham{
-        display:inline;}
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+ 
+    .nav {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(0, 0, 0);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(20, 20, 20, 0.5);
+    
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+}
 
     .ubicacion2 {
         display: flex;
@@ -33,4 +71,10 @@
     padding: 2rem;
     flex-wrap: wrap;
  }
+}
+
+.formulario5 {
+    padding-left: 5rem;
+    width: 300px;
+    margin: 2rem;
 }
