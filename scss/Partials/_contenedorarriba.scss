@@ -54,11 +54,10 @@ height: 100vh;
 
 .dividir {
     margin: 4rem;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    gap: 3rem;
+    display: flex;
+        gap: 2rem;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .ofertasahora {
