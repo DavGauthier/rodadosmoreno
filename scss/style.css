@@ -76,6 +76,30 @@
   height: 1000px;
 }
 
+.fondo {
+  height: 100vh;
+}
+
+/*.dividir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+}*/
+.dividir {
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  gap: 3rem;
+  position: relative;
+}
+
+.ofertasahora {
+  margin-left: 39rem;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -277,6 +301,7 @@ main h1 {
     background-color: rgb(0, 0, 0);
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(20, 20, 20, 0.5);
+    z-index: 1;
   }
   .nav .nav-list {
     flex-direction: column;

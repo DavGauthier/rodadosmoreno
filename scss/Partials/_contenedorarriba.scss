@@ -38,3 +38,29 @@ margin-top: 5rem;}
     width: 100%;
     height: 1000px;
 }
+
+.fondo {
+
+height: 100vh;
+}
+
+/*.dividir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+}*/
+
+.dividir {
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 3rem;
+    position: relative;
+}
+
+.ofertasahora {
+margin-left: 39rem;
+}
