@@ -5,6 +5,10 @@
   padding: 3rem;
 }
 
+.card-img-top {
+  height: 175px;
+}
+
 .boton99 {
   width: 150px;
   height: 60px;
