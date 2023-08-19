@@ -102,6 +102,10 @@ header {
   animation: bounce-in-top 1.1s both;
 }
 
+/*.menu__item1{
+        animation-delay: 1s;
+    }
+*/
 .logo {
   max-width: 4rem;
   margin-left: 3rem;
