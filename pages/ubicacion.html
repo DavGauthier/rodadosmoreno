@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubicación</title>
     <link rel="shortcut icon" href="../Imagenes/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../scss/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="description" content="Encontranos en la localidad de Moreno, Buenos Aires">
 <meta name="keywords" content="bicicleteria en moreno, bicicleteria, skate, arreglo de bicis en moreno">
 </head>
 <body class="fondopantalla">
-    <header class="flex-container">
-        <ul>
-            <img class="logo" src="../Imagenes/Logo.png" alt="Logo bicicleta">              
-            <li class="text2"><a href="../index.html">Inicio</a></li>
-            <li class="text2"><a href="./quienes-somos.html">Quienes somos</a></li>
-            <li class="text2"><a href="./ofertas.html">Ofertas</a></li>
-            <li class="text2"><a href="./ubicacion.html">Ubicación</a></li>
-            <li class="text2"><a href="./iniciar-sesion.html">Iniciar sesión</a></li>
-            <img class="menuham" src="../Imagenes/Menu hamb.svg" alt="Menu">
+   <header>
+        <img class="logo" src="../Imagenes/Logo.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></i></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></i></button>
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="./ofertas.html">Ofertas</a></li>
+                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
+                <li><a href="./iniciar-sesion.html">Iniciar sesión</a></li>
             </ul>
-                        
+        </nav>
     </header>
     <div class="ubicacion2">
         <div class="ubicacion5">
@@ -42,5 +45,6 @@
     <div><i class="fa-brands fa-whatsapp" style="color: #21de24;"></i>Whatsapp</div>
     <div><i class="fa-brands fa-instagram" style="color: #ffffff;"></i>Instagram</div>
 </footer>
+<script src="../java/main.js"></script>
 </body>
 </html>
