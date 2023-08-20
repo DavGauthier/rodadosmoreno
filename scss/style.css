@@ -97,34 +97,40 @@ header {
   background-color: black;
   font-weight: bold;
 }
-
-.menu__item {
-  animation: bounce-in-top 1.1s both;
-}
-
-/*.menu__item1{
-        animation-delay: 1s;
-    }
-*/
-.logo {
-  max-width: 4rem;
-  margin-left: 3rem;
-}
-
-.logo:hover {
-  transform: scale(1.4);
-}
-
-.nav-list {
+header .nav-list {
   list-style-type: none;
   display: flex;
   gap: 4rem;
   margin-right: 4rem;
 }
-
-.nav-list li a {
+header .nav-list .menu__item {
+  animation: bounce-in-top 1.1s both;
+}
+header .nav-list li a {
   text-decoration: none;
   color: #ffffff;
+}
+header .nav-list .menu__item1 {
+  animation-delay: 1s;
+}
+header .nav-list .menu__item2 {
+  animation-delay: 2s;
+}
+header .nav-list .menu__item3 {
+  animation-delay: 3s;
+}
+header .nav-list .menu__item4 {
+  animation-delay: 4s;
+}
+header .nav-list .menu__item5 {
+  animation-delay: 5s;
+}
+header .logo {
+  max-width: 4rem;
+  margin-left: 3rem;
+}
+header .logo:hover {
+  transform: scale(1.4);
 }
 
 .abrir-menu,
@@ -167,6 +173,32 @@ header {
     animation-timing-function: ease-out;
   }
 }
+/*
+  .menu__item1{
+        animation-delay: 1s;
+    }
+
+    .menu__item2 {
+        animation-delay: 2s;
+    }
+
+    .menu__item3 {
+        animation-delay: 3s;
+    }
+
+    .menu__item4 {
+
+    animation-delay: 4s;
+    }
+
+    .menu__item5 {
+
+        animation-delay: 5s;
+    } 
+
+
+
+    */
 .formulario5 {
   padding-left: 2rem;
   width: 300px;
